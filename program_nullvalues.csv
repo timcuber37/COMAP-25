@@ -1,0 +1,17 @@
+id,sport,discipline,sportscode,govbody,num1896,num1900,num1904,num1906,num1908,num1912,num1920,num1924,num1928,num1932,num1936,num1948,num1952,num1956,num1960,num1964,num1968,num1972,num1976,num1980,num1984,num1988,num1992,num1996,num2000,num2004,num2008,num2012,num2016,num2020,num2024
+8,Badminton,Badminton,BDM,BWF,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NULL,0,0,0,NULL,4,5,5,5,5,5,5,5,5
+9,"Baseball and Softball",Baseball,BSB,WBSC[s1],0,NULL,0,0,0,NULL,0,NULL,0,0,NULL,0,0,NULL,0,NULL,0,0,0,0,NULL,NULL,1,1,1,1,1,0,0,1,0
+12,Basketball,Basketball,BKB,FIBA,0,0,NULL,0,0,0,0,NULL,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2
+13,"Basque Pelota","Basque Pelota",PEL,FIPV,0,1,0,0,0,0,0,NULL,0,0,0,0,0,0,0,0,NULL,0,0,0,0,0,NULL,0,0,0,0,0,0,0,0
+16,Canoeing,Sprint,CSP,ICF,0,0,0,0,0,0,0,NULL,0,0,9,9,9,9,7,7,7,7,11,11,12,12,12,12,12,12,12,12,12,12,10
+39,Handball,Field,HBL,IHF,0,0,0,0,0,0,0,0,0,0,1,0,0,NULL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+40,"Jeu de Paume","Jeu de Paume",NULL,NULL,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+44,Lacrosse,Field,LAX,WL,0,0,1,0,1,0,0,0,NULL,NULL,0,NULL,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,Rackets,Rackets,RQT,NULL,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+48,Roque,Roque,NULL,NULL,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+60,Taekwondo,Taekwondo,TKW,"World Taekwondo",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NULL,NULL,0,8,8,8,8,8,8,8
+61,Tennis,Tennis,TEN,ITF,2,4,2,4,6,8,5,5,0,0,0,0,0,0,0,0,NULL,0,0,0,NULL,4,4,4,4,4,4,5,5,5,5
+65,Volleyball,Indoor,VVO,FIVB,0,0,0,0,0,0,0,NULL,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+66,"Water Motorsports",,PBT,UIM,0,NULL,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+70,Skating,Figure,FSK,ISU,0,0,0,0,4,0,3,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+71,"Ice Hockey","Ice Hockey",IHO,IIHF,0,0,0,0,0,0,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
