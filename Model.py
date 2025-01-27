@@ -41,7 +41,7 @@ def countries(data, modelPlot = True, futureData = None, predict = ''):
         plt.scatter(y_pred, y_test, color= 'blue', label = 'Predictions')
         plt.scatter(y_lb, y_test, color= 'red', label = 'Lower Bound')
         plt.scatter(y_ub, y_test, color= 'green', label = 'Upper Bound')
-        plt.title(f"Future {predict} medals")
+        plt.title(f"Model Performance")
         plt.xlabel('Predicted Values')
         plt.ylabel('Actual Values')
         plt.show()
@@ -54,8 +54,8 @@ def countries(data, modelPlot = True, futureData = None, predict = ''):
         plt.bar(x=futureData['NOC'], height=future_pred, color='gray')
 
         plt.title(f'Future {predict} Predictions')
-        plt.xlabel('competing countries')
-        plt.ylabel('predicted medal counts')
+        plt.xlabel('Competing Countries')
+        plt.ylabel('Predicted Medal Counts')
         plt.xticks(rotation = 80)
         plt.show()
 
