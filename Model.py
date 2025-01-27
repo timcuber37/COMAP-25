@@ -3,14 +3,13 @@ import numpy as np
 from sklearn.model_selection import train_test_split as tts, KFold as KF
 from sklearn.ensemble import RandomForestClassifier as RFC, RandomForestRegressor as RFR
 from sklearn.metrics import accuracy_score as ac, root_mean_squared_error as rmse, RocCurveDisplay as rcd, PredictionErrorDisplay as ped, r2_score as r2
-from mapie.regression import MapieRegressor as MP
 import matplotlib.pyplot as plt
 
 def getIntervals(actual, predictions):
     residuals = np.abs(actual - predictions)
-    y_ub = predictions + residuals
-    y_lb = predictions - residuals
-    return y_ub, y_lb
+    upperResidual = predictions + residuals
+    lowerResidual = predictions - residuals
+    return upperResidual, lowerResidual
 
 def getResiduals(actual, predictions):
     residuals = np.abs(actual - predictions)
